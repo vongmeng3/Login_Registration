@@ -1,0 +1,13 @@
+services:
+
+  registration:
+    build: ./Registration_MicroServices
+    container_name: registration-service
+    ports:
+      - "3001:3001"
+
+  login:
+    build: ./Login_MicroServices
+    container_name: login-service
+    ports:
+      - "3000:3000"

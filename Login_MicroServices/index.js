@@ -63,7 +63,7 @@ app.post("/login", async (req, res) => {
   }
 });
 
-const PORT = process.env.PORT || 3002;
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
   console.log(`Authentication service running on port ${PORT}`);
